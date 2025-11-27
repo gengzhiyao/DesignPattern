@@ -1,1 +1,3 @@
 add_subdirectory(AbstractFactory)
+
+add_subdirectory(SimpleFactory)
