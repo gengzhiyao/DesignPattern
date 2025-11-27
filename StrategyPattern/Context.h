@@ -1,11 +1,18 @@
+// 策略模式：
+// 通过抽象，找出负责使用多种不同的方式完成特定任务的类，将该类作为基类或抽象基类
+// 上下文类中存储一个策略基类的成员变量，上下文并不执行任务，而是将工作委派给已连接的策略对象。
+// 客户端会将所需策略传递给上下文。 
+// 实际上，上下文并不了解策略，它会通过通用接口与所有策略进行交互，而该接口只需暴露一个方法来触发所选策略中封装的算法即可。
+
+
 #include "Strategy.h"
 
 class Context{
 public:
-    void setStrategy(Strategy* sty);
+    void setStrategy(Strategy* sty); //客户通过暴露的方法将策略传递给上下文
 
-    void executeStrategy();
+    void executeStrategy(); // 上下文并不真正执行策略，而是委托给策略对象
 
 private:
-    Strategy* strategy;
+    Strategy* strategy; // 策略基类成员变量
 };
