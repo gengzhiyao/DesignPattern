@@ -4,3 +4,4 @@ project(AdapterDesignPattern)
 
 add_subdirectory(FactoryPattern)
 
+add_subdirectory(StrategyPattern)
