@@ -5,12 +5,12 @@ void Strategy::execute()
     std::cout << "Strategy::execute" << std::endl;
 }
 
-void ConcreateStrategyAdd::execute()
+void ConcreteStrategyAdd::execute()
 {
-    std::cout << "ConcreateStrategyAdd::execute" << std::endl;
+    std::cout << "ConcreteStrategyAdd::execute" << std::endl;
 }
 
-void ConcreateStrategySub::execute()
+void ConcreteStrategySub::execute()
 {
-    std::cout << "ConcreateStrategySub::execute" << std::endl;
+    std::cout << "ConcreteStrategySub::execute" << std::endl;
 }

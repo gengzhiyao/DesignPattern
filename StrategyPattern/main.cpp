@@ -4,7 +4,7 @@
 int main()
 {
     Context context;
-    std::unique_ptr<ConcreateStrategyAdd> styAdd = std::make_unique<ConcreateStrategyAdd>();
+    std::unique_ptr<ConcreteStrategyAdd> styAdd = std::make_unique<ConcreteStrategyAdd>();
     context.setStrategy(styAdd.get());
     context.executeStrategy();
 }

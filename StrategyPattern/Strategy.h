@@ -6,13 +6,13 @@ public:
     virtual void execute();
 };
 
-class ConcreateStrategyAdd : public Strategy
+class ConcreteStrategyAdd : public Strategy
 {
 public:
     void execute() override;
 };
 
-class ConcreateStrategySub : public Strategy
+class ConcreteStrategySub : public Strategy
 {
 public:
     void execute() override;
