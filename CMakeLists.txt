@@ -9,3 +9,5 @@ add_subdirectory(FactoryPattern)
 add_subdirectory(FacadePattern)
 
 add_subdirectory(StrategyPattern)
+
+add_subdirectory(ObserverPattern)

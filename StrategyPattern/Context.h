@@ -3,15 +3,17 @@
 // 上下文类中存储一个策略基类的成员变量，上下文并不执行任务，而是将工作委派给已连接的策略对象。
 // 客户端会将所需策略传递给上下文。 
 // 实际上，上下文并不了解策略，它会通过通用接口与所有策略进行交互，而该接口只需暴露一个方法来触发所选策略中封装的算法即可。
+// 一般情况下，用于替换if-else语句
 
 
 #include "Strategy.h"
 
-class Context{
+class Context
+{
 public:
-    void setStrategy(Strategy* sty); //客户通过暴露的方法将策略传递给上下文
+    void setStrategy (Strategy* sty); //客户通过暴露的方法将策略传递给上下文
 
-    void executeStrategy(); // 上下文并不真正执行策略，而是委托给策略对象
+    void executeStrategy (); // 上下文并不真正执行策略，而是委托给策略对象
 
 private:
     Strategy* strategy; // 策略基类成员变量
