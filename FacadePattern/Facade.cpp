@@ -27,3 +27,4 @@ void SmartHome::LeaveHome()
     m_ac->PowerOff();
     m_cs->Close();
 }
+
