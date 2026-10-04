@@ -16,3 +16,4 @@ add_subdirectory(IteratorPattern)
 
 add_subdirectory(DecoratorPattern)
 
+add_subdirectory(StatePattern)
