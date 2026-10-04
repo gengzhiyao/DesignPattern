@@ -1,0 +1,1 @@
+add_executable(Composite main.cpp)
