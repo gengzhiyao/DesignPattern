@@ -21,3 +21,5 @@ add_subdirectory(StatePattern)
 add_subdirectory(CompositePattern)
 
 add_subdirectory(CommandPattern)
+
+add_subdirectory(ChainOfResponsibilityPattern)
