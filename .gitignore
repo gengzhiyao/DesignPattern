@@ -7,4 +7,5 @@
 
 **/*.vscode
 **/*.md
+!DesignPattern.md
 build/*
