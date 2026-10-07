@@ -25,3 +25,5 @@ add_subdirectory(CommandPattern)
 add_subdirectory(ChainOfResponsibilityPattern)
 
 add_subdirectory(MediatorPattern)
+
+add_subdirectory(BuilderPattern)
